@@ -12,12 +12,6 @@ function layout() {
             <div className='first-column' style={{gridArea: 'firstColumn'}}>
                 <div className="box">
                             <Stories />
-                            <Stories />
-                            <Stories />
-                            <Stories />
-                            <Stories />
-                            <Stories />
-                            
                         </div>
 
                     <div className="box2" style={{margin:"30px 0 "}}>

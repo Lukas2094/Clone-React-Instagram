@@ -1,10 +1,19 @@
 .container {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
     padding: 15px;
 }
 
 .story-elements {
     cursor: pointer;
 
+}
+
+.user-elements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .user-elements div {
@@ -25,6 +34,8 @@
 
 .user-elements span {
     cursor: pointer;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
+    white-space: pre;
+    display: block
 }
